@@ -20,20 +20,20 @@ html {
 
 .container {
   max-width: 1200px;
-  height: 100vh;
   margin: 0px auto;
-  padding: 50px 15px;
+  padding: 15px;
   background-color: rgb(0, 0, 0, .7);
 }
 
 .content {
   display: flex;
+  width: 50%;
+  height: 50%;
+  padding: 15px;
   margin: auto;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
   background-color: #fff;
 }
 
@@ -76,14 +76,13 @@ html {
   float: left;
   clear: left;
   width: 30rem;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 #swatch {
-  width: 20rem;
-  height: 10rem;
+  width: 40rem;
+  height: 5rem;
   padding: .5rem;
-  margin-top: 2rem;
-  margin-left: 3.5rem;
+  margin-top: 1rem;
   background-image: none;
   font-size: 3rem;
   font-weight: 800;
@@ -96,30 +95,3 @@ html {
 #green .ui-slider-handle { border-color: #8ae234; }
 #blue .ui-slider-range { background: #729fcf; }
 #blue .ui-slider-handle { border-color: #729fcf; }
-
-@media (min-width: 1201px) {
-}
-
-@media (min-height: 992px) and (max-width: 1200px) { 
-}
-
-@media (min-height: 768px) and (max-width: 991px) {
-}
-
-@media (min-height: 576px) and (max-width: 767px) {
-}
-
-@media (min-height: 320px) and (max-height: 575px) {
-}
-
-@media (orientation: portrait) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
-@media (orientation: landscape) {
-  .container {
-    max-width: 1200px;
-  }
-}
